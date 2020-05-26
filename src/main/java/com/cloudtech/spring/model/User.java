@@ -1,17 +1,13 @@
 package com.cloudtech.spring.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Collection;
 
 @NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
+@Data
 @Entity
 public class User {
     @Id
